@@ -4,10 +4,10 @@ quicker feedback when prototyping a design.
 **Experimental.** Because this project is configured to run using the [tailwindcss just in time compiler][0],
 it should be considered experimental, just like this new tailwindcss feature.
 
-To run the project, use yarn to install dependecies and start the server:
+Quick start
 
 ```shell
-yarn install && yarn start
+npm ci && npm start
 ```
 
 ---
