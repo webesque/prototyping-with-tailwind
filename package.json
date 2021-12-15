@@ -3,11 +3,11 @@
   "dependencies": {
     "browser-sync": "^2.27.5",
     "npm-run-all": "^4.1.5",
-    "tailwindcss": "^2.2.19"
+    "tailwindcss": "^3.0.5"
   },
   "scripts": {
     "browser-sync": "browser-sync start --config bs-config.js",
-    "tailwind-watch": "tailwindcss -i styles.css -o build.css --watch --jit",
+    "tailwind-watch": "tailwindcss -i styles.css -o build.css --watch",
     "start": "run-p tailwind-watch browser-sync"
   }
 }
