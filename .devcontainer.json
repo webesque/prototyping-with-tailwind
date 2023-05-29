@@ -19,6 +19,11 @@
       "extensions": [
         "bradlc.vscode-tailwindcss"
       ]
+    },
+    "codespaces": {
+      "openFiles": [
+        "index.html"
+      ]
     }
   }
 
