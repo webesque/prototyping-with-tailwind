@@ -23,8 +23,8 @@
     },
     "codespaces": {
       "openFiles": [
-        "styles.css",
-        "index.html"
+        "index.html",
+        "styles.css"
       ]
     }
   }
