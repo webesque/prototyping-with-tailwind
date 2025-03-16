@@ -27,9 +27,7 @@
  |
  */
 module.exports = {
-    "ui": {
-        "port": 3001
-    },
+    "ui": false,
     "files": ["index.html","build.css"],
     "watchEvents": [
         "change"
