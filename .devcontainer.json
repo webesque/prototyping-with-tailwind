@@ -9,7 +9,7 @@
   "forwardPorts": [3000],
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "npm ci && npm start",
+  "postStartCommand": "npm ci && npm start",
 
    // Configure tool-specific properties.
   "customizations": {
@@ -23,6 +23,7 @@
     },
     "codespaces": {
       "openFiles": [
+        "styles.css",
         "index.html"
       ]
     }
